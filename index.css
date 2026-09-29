@@ -1,7 +1,7 @@
 
 body {
 background-color: rgb(151, 184, 141);
-font-family: Arial, sans-serif;
+font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -43,3 +43,13 @@ text-decoration: none;
 a:hover {
 text-decoration: underline;
 }
+
+
+.lomake {
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid rgb(16, 80, 10);
+    border-radius: 10px;
+    background-color: rgb(192, 245, 161);
+}
+
