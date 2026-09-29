@@ -1,0 +1,45 @@
+
+body {
+background-color: rgb(151, 184, 141);
+font-family: Arial, sans-serif;
+}
+
+h1 {
+color: rgb(16, 80, 10);
+text-align: center;
+}
+
+p {
+color: rgb(17, 92, 33);
+font-size: 18px;
+}
+
+.teemapaivat {
+background-color: rgb(188, 224, 168);
+padding: 10px;
+border-radius: 5px;
+max-width: 500px;
+margin: 0 auto;
+}
+
+.container {
+max-width: 800px;
+margin: 20px auto;
+padding: 30px;
+}
+
+.sitaatti {
+border: 2px solid rgb(23, 109, 43);
+max-width: 500px;
+padding: 8px;
+margin: 0 auto;
+}
+
+a {
+color: rgb(14, 65, 9);
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
