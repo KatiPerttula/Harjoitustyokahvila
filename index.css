@@ -2,7 +2,11 @@ body {
     background-color: rgb(151, 184, 141);
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
+
+/* OTSIKOT*/
 
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
@@ -10,31 +14,45 @@ h1, h2, h3 {
 }
 
 h1 {
-    text-align: center;
     margin: 0;
     font-size: 3rem;
 }
 
-header{
+h2 {
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+/* HEADERIT */
+
+header {
     background-color: rgb(166, 236, 182);
     padding: 30px 20px;
     text-align: center;
+    border-bottom: 3px solid rgb(16, 80, 10);
 }
 
 
-
-p {
-    color: rgb(17, 92, 33);
-    font-size: 18px;
-}
-
-.teemapaivat {
+nav {
     background-color: rgb(166, 236, 182);
-    padding: 10px;
-    border-radius: 5px;
-    max-width: 500px;
-    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
 }
+
+nav a {
+    color: rgb(14, 65, 9);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 
 .container {
     max-width: 800px;
@@ -42,21 +60,45 @@ p {
     padding: 30px;
 }
 
-.sitaatti {
-    border: 2px solid rgb(23, 109, 43);
-    max-width: 500px;
-    padding: 8px;
-    margin: 0 auto;
+/* TEKSTI*/
+
+p {
+    color: rgb(17, 92, 33);
+    font-size: 18px;
 }
+
+/* TEEMAPÄIVÄT*/
+
+.teemapaivat {
+    background-color: rgb(166, 236, 182);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* SITAATTI */
+
+.sitaatti {
+    border-left: 5px solid rgb(23, 109, 43);
+    background-color: rgb(166, 236, 182);
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+/* Linkit */
 
 a {
     color: rgb(14, 65, 9);
-    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: rgb(23, 109, 43);
 }
+
+/* Lomake */
 
 .lomake {
     max-width: 500px;
@@ -66,12 +108,40 @@ a:hover {
     background-color: rgb(166, 236, 182);
 }
 
-nav {
-    background-color: rgb(166, 236, 182);
-    padding: 10px;
-    text-align: center;
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid rgb(23, 109, 43);
+    border-radius: 5px;
 }
 
-nav a{
-    margin: 0 15px;
+button {
+    background-color: rgb(16, 80, 10);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(23, 109, 43);
+}
+
+/* Listat */
+
+ul {
+    color: rgb(17, 92, 33);
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(166, 236, 182);
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-top: 3px solid rgb(16, 80, 10);
 }

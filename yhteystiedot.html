@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peikkometsän kahvila</title>
+    <title>Peikkometsän kahvila - Yhteystiedot</title>
 
     <link rel="stylesheet" href="index.css">
 
@@ -13,58 +13,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
+<body>
 
-<header>
-    <h1>Yhteystiedot</h1>
-</header>
+    <header>
+        <h1>Peikkometsän kahvila</h1>
+    </header>
 
-<p>
-    Ole meihin yhteydessä sinulle mieluisalla tavalla. Pyrimme vastaamaan mahdollisimman pian.
-</p>
+    <nav>
+        <a href="index.html">Etusivu</a>
+        <a href="tuotteet.html">Tuotteet</a>
+        <a href="yksityistilaisuus.html">Yksityistilaisuudet</a>
+        <a href="yhteystiedot.html">Yhteystiedot</a>
+    </nav>
 
-<p><h2>Aukioloajat:</h2>
-    <li>Ma-Pe klo: 08:00 - 21:00</li>
-    <li>La klo: 08:00 - 20:00</li>
-    <li>Su klo: 10:00 - 20:00</li>
+    <main class="container">
 
-</p>
+        <h2>Yhteystiedot</h2>
 
-<p>  Käyntiosoite: <br>
-         Metsätie 100 <br>
-         00000 Peikkometsä
-</p>
-        <a href="mailto:peikkometsa@kahvila.com"> Lähetä sähköpostia</a> <br>
-        <a href="tel:+3581123344"> Soita +358 112 3344</a> <br>
+        <p>
+            Ole meihin yhteydessä sinulle mieluisalla tavalla.
+            Pyrimme vastaamaan mahdollisimman pian.
+        </p>
 
+        <section>
+            <h3>Aukioloajat</h3>
 
+            <ul>
+                <li>Ma-Pe klo 08.00-21.00</li>
+                <li>La klo 08.00-20.00</li>
+                <li>Su klo 10.00-20.00</li>
+            </ul>
+        </section>
 
+        <section>
+            <h3>Käyntiosoite</h3>
 
+            <p>
+                Metsätie 100<br>
+                00000 Peikkometsä
+            </p>
 
-    <H2>Alla yhteydenottolomakeemme:</H2>
+            <p>
+                <a href="mailto:peikkometsa@kahvila.com">Lähetä sähköpostia</a><br>
+                <a href="tel:+3581123344">Soita +358 112 3344</a>
+            </p>
+        </section>
 
+        <section class="lomake">
+            <h3>Ota yhteyttä</h3>
 
-<div class="lomake">
-    <h3>Ota yhteyttä</h3>
+            <form>
+                <label for="nimi">Nimi:</label><br>
+                <input type="text" id="nimi" name="nimi" required><br><br>
 
-    <form>
-        <label for="nimi">Nimi:</label><br>
-        <input type="text" id="nimi" name="nimi" required><br><br>
-        
-        <label for="email">Sähköposti:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-        
-        <label for="viesti">Viesti:</label><br>
-        <textarea id="viesti" name="viesti" rows="5" cols="40"></textarea><br><br>
-        
-        <button type="submit">Lähetä</button>
-        </form>
-    </div>
-<br>
+                <label for="email">Sähköposti:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
 
-<p><h3>Vastaamme 1-2 arkipäivän kuluessa</h3></p> <br>
+                <label for="viesti">Viesti:</label><br>
+                <textarea id="viesti" name="viesti" rows="5" cols="40"></textarea><br><br>
 
-<a href="index.html"> Takaisin etusivulle!</a><br>
+                <button type="submit">Lähetä</button>
+            </form>
 
-<footer>
-    <p>© 2026 Peikkometsän kahvila</p>
-</footer>
+            <p>Vastaamme 1-2 arkipäivän kuluessa.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Peikkometsän kahvila</p>
+    </footer>
+
+</body>
+</html>
