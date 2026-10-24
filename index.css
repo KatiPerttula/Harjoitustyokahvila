@@ -129,6 +129,27 @@ ul li {
     color: rgb(16, 80, 10);
 }
 
+.tilaisuudet {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.tilaisuuslista {
+    padding-left: 25px;
+}
+
+.tilaisuuslista li {
+    margin-bottom: 25px;
+}
+
+.tilaisuuslista strong {
+    color: rgb(16, 80, 10);
+}
+
 /* TEEMAPÄIVÄT */
 
 .teemapaivat {
