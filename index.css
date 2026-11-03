@@ -67,7 +67,7 @@ nav a:hover {
 
 .container {
     display: grid;
-    grid-template-columns:2fe 1fr;
+    grid-template-columns:2fr 1fr;
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
