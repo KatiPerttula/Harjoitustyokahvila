@@ -287,12 +287,12 @@ footer {
 /* KUVAJUTUT*/
 
 .etusivuvideo {
-    margin-right: 40px;
+    padding-right: 25px;
 }
 
 .etusivuvideo video {
     width: 100%;
-    max-width: 780px;
+    max-width: 800px;
     height: auto;
     display: block;
 }
